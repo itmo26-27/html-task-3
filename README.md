@@ -1,5 +1,7 @@
 # Задание 3. Вёрстка: исправить загрузку и отрисовку сайта
 
+Результат работы: [отчёт](docs/REPORT.pdf) и [записи Performance](docs/performance/).
+
 Задание к лекции [«Как работает браузер»](https://docs.google.com/presentation/d/1EIV2QLB37qf8hGHQNc2yglf67V6uUA67hmSw3RSEjUA/edit?usp=sharing).
 
 **Дедлайн для получения полного балла — 25 ноября 2026 года включительно.**

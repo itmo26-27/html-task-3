@@ -1,0 +1,214 @@
+[
+  {
+    "scenario": "normal",
+    "initial": {
+      "cards": 1000,
+      "initCount": "1",
+      "view": "detailed",
+      "nested": true,
+      "analytics": true
+    },
+    "compact": {
+      "view": "compact",
+      "initCount": "1",
+      "changes": 1,
+      "cards": 1000
+    },
+    "detailed": {
+      "view": "detailed",
+      "initCount": "1",
+      "changes": 2,
+      "cards": 1000
+    },
+    "requests": [
+      {
+        "url": "http://127.0.0.1:4173/?scenario=normal",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/css/site.css?scenario=normal",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/campus.svg?scenario=normal",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/PTSerif-Regular.ttf?scenario=normal",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/analytics.js?scenario=normal",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/tools.js?scenario=normal",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/app.js?scenario=normal",
+        "status": 200
+      }
+    ],
+    "errors": []
+  },
+  {
+    "scenario": "slow",
+    "initial": {
+      "cards": 1000,
+      "initCount": "1",
+      "view": "detailed",
+      "nested": true,
+      "analytics": true
+    },
+    "compact": {
+      "view": "compact",
+      "initCount": "1",
+      "changes": 1,
+      "cards": 1000
+    },
+    "detailed": {
+      "view": "detailed",
+      "initCount": "1",
+      "changes": 2,
+      "cards": 1000
+    },
+    "requests": [
+      {
+        "url": "http://127.0.0.1:4173/?scenario=slow",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/css/site.css?scenario=slow",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/campus.svg?scenario=slow",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/analytics.js?scenario=slow",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/tools.js?scenario=slow",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/app.js?scenario=slow",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/PTSerif-Regular.ttf?scenario=slow",
+        "status": 200
+      }
+    ],
+    "errors": []
+  },
+  {
+    "scenario": "race",
+    "initial": {
+      "cards": 1000,
+      "initCount": "1",
+      "view": "detailed",
+      "nested": true,
+      "analytics": true
+    },
+    "compact": {
+      "view": "compact",
+      "initCount": "1",
+      "changes": 1,
+      "cards": 1000
+    },
+    "detailed": {
+      "view": "detailed",
+      "initCount": "1",
+      "changes": 2,
+      "cards": 1000
+    },
+    "requests": [
+      {
+        "url": "http://127.0.0.1:4173/?scenario=race",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/css/site.css?scenario=race",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/app.js?scenario=race",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/analytics.js?scenario=race",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/PTSerif-Regular.ttf?scenario=race",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/campus.svg?scenario=race",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/tools.js?scenario=race",
+        "status": 200
+      }
+    ],
+    "errors": []
+  },
+  {
+    "scenario": "reverse",
+    "initial": {
+      "cards": 1000,
+      "initCount": "1",
+      "view": "detailed",
+      "nested": true,
+      "analytics": true
+    },
+    "compact": {
+      "view": "compact",
+      "initCount": "1",
+      "changes": 1,
+      "cards": 1000
+    },
+    "detailed": {
+      "view": "detailed",
+      "initCount": "1",
+      "changes": 2,
+      "cards": 1000
+    },
+    "requests": [
+      {
+        "url": "http://127.0.0.1:4173/?scenario=reverse",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/css/site.css?scenario=reverse",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/campus.svg?scenario=reverse",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/analytics.js?scenario=reverse",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/tools.js?scenario=reverse",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/js/app.js?scenario=reverse",
+        "status": 200
+      },
+      {
+        "url": "http://127.0.0.1:4173/assets/PTSerif-Regular.ttf?scenario=reverse",
+        "status": 200
+      }
+    ],
+    "errors": []
+  }
+]

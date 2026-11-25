@@ -1,0 +1,429 @@
+{
+  "environment": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+    "width": 1280,
+    "height": 1000,
+    "dpr": 1
+  },
+  "tests": {
+    "starter": {
+      "staticCheck": {
+        "cardCount": 1000,
+        "initCount": "2",
+        "nested": false,
+        "summaryVisible": true,
+        "startView": "detailed"
+      },
+      "traces": [
+        {
+          "run": 1,
+          "layoutSelfMs": 1233.071,
+          "layoutEvents": 2002,
+          "stateAfter": {
+            "view": "compact",
+            "initCount": "2",
+            "changes": 2,
+            "cards": 1000
+          },
+          "traceEventCount": 5674
+        },
+        {
+          "run": 2,
+          "layoutSelfMs": 860.242,
+          "layoutEvents": 2002,
+          "stateAfter": {
+            "view": "compact",
+            "initCount": "2",
+            "changes": 2,
+            "cards": 1000
+          },
+          "traceEventCount": 5021
+        },
+        {
+          "run": 3,
+          "layoutSelfMs": 1054.228,
+          "layoutEvents": 2002,
+          "stateAfter": {
+            "view": "compact",
+            "initCount": "2",
+            "changes": 2,
+            "cards": 1000
+          },
+          "traceEventCount": 4846
+        },
+        {
+          "run": 4,
+          "layoutSelfMs": 838.429,
+          "layoutEvents": 2002,
+          "stateAfter": {
+            "view": "compact",
+            "initCount": "2",
+            "changes": 2,
+            "cards": 1000
+          },
+          "traceEventCount": 8429
+        },
+        {
+          "run": 5,
+          "layoutSelfMs": 1124.191,
+          "layoutEvents": 2002,
+          "stateAfter": {
+            "view": "compact",
+            "initCount": "2",
+            "changes": 2,
+            "cards": 1000
+          },
+          "traceEventCount": 4730
+        }
+      ]
+    },
+    "fixed": {
+      "staticCheck": {
+        "cardCount": 1000,
+        "initCount": "1",
+        "nested": true,
+        "summaryVisible": true,
+        "startView": "detailed"
+      },
+      "traces": [
+        {
+          "run": 1,
+          "layoutSelfMs": 12.648,
+          "layoutEvents": 1,
+          "stateAfter": {
+            "view": "compact",
+            "initCount": "1",
+            "changes": 1,
+            "cards": 1000
+          },
+          "traceEventCount": 163
+        },
+        {
+          "run": 2,
+          "layoutSelfMs": 12.912,
+          "layoutEvents": 1,
+          "stateAfter": {
+            "view": "compact",
+            "initCount": "1",
+            "changes": 1,
+            "cards": 1000
+          },
+          "traceEventCount": 176
+        },
+        {
+          "run": 3,
+          "layoutSelfMs": 13.365,
+          "layoutEvents": 1,
+          "stateAfter": {
+            "view": "compact",
+            "initCount": "1",
+            "changes": 1,
+            "cards": 1000
+          },
+          "traceEventCount": 176
+        },
+        {
+          "run": 4,
+          "layoutSelfMs": 13.899,
+          "layoutEvents": 1,
+          "stateAfter": {
+            "view": "compact",
+            "initCount": "1",
+            "changes": 1,
+            "cards": 1000
+          },
+          "traceEventCount": 176
+        },
+        {
+          "run": 5,
+          "layoutSelfMs": 13.636,
+          "layoutEvents": 1,
+          "stateAfter": {
+            "view": "compact",
+            "initCount": "1",
+            "changes": 1,
+            "cards": 1000
+          },
+          "traceEventCount": 176
+        }
+      ]
+    }
+  },
+  "fixedDetailed": {
+    "view": "detailed",
+    "initCount": "1",
+    "summaryDisplay": "block",
+    "count": 1000
+  },
+  "fixedCompact": {
+    "view": "compact",
+    "initCount": "1",
+    "summaryDisplay": "none",
+    "count": 1000,
+    "changes": 1
+  },
+  "fixedRestored": {
+    "view": "detailed",
+    "initCount": "1",
+    "changes": 2
+  },
+  "shifts": {
+    "slow": {
+      "first": {
+        "boxes": {
+          "#lead-title": {
+            "x": 120,
+            "y": 163.1875,
+            "width": 1040,
+            "height": 156
+          },
+          ".lead-intro": {
+            "x": 120,
+            "y": 339.1875,
+            "width": 660,
+            "height": 51.1875
+          },
+          ".archive-toolbar": {
+            "x": 120,
+            "y": 799.96875,
+            "width": 1040,
+            "height": 101.984375
+          },
+          ".news-card": {
+            "x": 120,
+            "y": 951.546875,
+            "width": 1040,
+            "height": 230.65625
+          }
+        },
+        "readyState": "interactive",
+        "imageComplete": false,
+        "analyticsLoaded": false
+      },
+      "final": {
+        "boxes": {
+          "#lead-title": {
+            "x": 120,
+            "y": 163.1875,
+            "width": 1040,
+            "height": 156
+          },
+          ".lead-intro": {
+            "x": 120,
+            "y": 339.1875,
+            "width": 660,
+            "height": 51.1875
+          },
+          ".archive-toolbar": {
+            "x": 120,
+            "y": 799.96875,
+            "width": 1040,
+            "height": 101.984375
+          },
+          ".news-card": {
+            "x": 120,
+            "y": 951.546875,
+            "width": 1040,
+            "height": 230.65625
+          }
+        },
+        "readyState": "complete",
+        "imageComplete": true,
+        "analyticsLoaded": true
+      },
+      "differences": {
+        "#lead-title": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        ".lead-intro": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        ".archive-toolbar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        ".news-card": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "requests": [
+        {
+          "url": "http://127.0.0.1:4173/?scenario=slow",
+          "started": 388514.714923,
+          "finished": 388514.721271
+        },
+        {
+          "url": "http://127.0.0.1:4173/css/site.css?scenario=slow",
+          "started": 388514.753465,
+          "finished": 388514.856493
+        },
+        {
+          "url": "http://127.0.0.1:4173/js/analytics.js?scenario=slow",
+          "started": 388514.753566,
+          "finished": 388522.756295
+        },
+        {
+          "url": "http://127.0.0.1:4173/js/tools.js?scenario=slow",
+          "started": 388514.753588,
+          "finished": 388514.847558
+        },
+        {
+          "url": "http://127.0.0.1:4173/js/app.js?scenario=slow",
+          "started": 388514.753608,
+          "finished": 388514.927425
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/campus.svg?scenario=slow",
+          "started": 388514.75363,
+          "finished": 388518.557455
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/PTSerif-Regular.ttf?scenario=slow",
+          "started": 388514.859356,
+          "finished": 388517.068219
+        }
+      ],
+      "failed": []
+    },
+    "reverse": {
+      "first": {
+        "boxes": {
+          "#lead-title": {
+            "x": 120,
+            "y": 163.1875,
+            "width": 1040,
+            "height": 156
+          },
+          ".lead-intro": {
+            "x": 120,
+            "y": 339.1875,
+            "width": 660,
+            "height": 51.1875
+          },
+          ".archive-toolbar": {
+            "x": 120,
+            "y": 799.96875,
+            "width": 1040,
+            "height": 101.984375
+          },
+          ".news-card": {
+            "x": 120,
+            "y": 951.546875,
+            "width": 1040,
+            "height": 230.65625
+          }
+        },
+        "readyState": "interactive",
+        "imageComplete": true,
+        "analyticsLoaded": false
+      },
+      "final": {
+        "boxes": {
+          "#lead-title": {
+            "x": 120,
+            "y": 163.1875,
+            "width": 1040,
+            "height": 156
+          },
+          ".lead-intro": {
+            "x": 120,
+            "y": 339.1875,
+            "width": 660,
+            "height": 51.1875
+          },
+          ".archive-toolbar": {
+            "x": 120,
+            "y": 799.96875,
+            "width": 1040,
+            "height": 101.984375
+          },
+          ".news-card": {
+            "x": 120,
+            "y": 951.546875,
+            "width": 1040,
+            "height": 230.65625
+          }
+        },
+        "readyState": "complete",
+        "imageComplete": true,
+        "analyticsLoaded": true
+      },
+      "differences": {
+        "#lead-title": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        ".lead-intro": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        ".archive-toolbar": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        ".news-card": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        }
+      },
+      "requests": [
+        {
+          "url": "http://127.0.0.1:4173/?scenario=reverse",
+          "started": 388522.871726,
+          "finished": 388522.878633
+        },
+        {
+          "url": "http://127.0.0.1:4173/css/site.css?scenario=reverse",
+          "started": 388522.883588,
+          "finished": 388522.987263
+        },
+        {
+          "url": "http://127.0.0.1:4173/js/analytics.js?scenario=reverse",
+          "started": 388522.883702,
+          "finished": 388525.487384
+        },
+        {
+          "url": "http://127.0.0.1:4173/js/tools.js?scenario=reverse",
+          "started": 388522.883732,
+          "finished": 388522.917452
+        },
+        {
+          "url": "http://127.0.0.1:4173/js/app.js?scenario=reverse",
+          "started": 388522.88376,
+          "finished": 388523.988714
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/campus.svg?scenario=reverse",
+          "started": 388522.883785,
+          "finished": 388523.186786
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/PTSerif-Regular.ttf?scenario=reverse",
+          "started": 388522.989876,
+          "finished": 388524.994775
+        }
+      ],
+      "failed": []
+    }
+  },
+  "browserErrors": []
+}

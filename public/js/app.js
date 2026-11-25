@@ -2,14 +2,7 @@
   function changeView(mode) {
     const feed = document.getElementById('news-feed');
     const compact = mode === 'compact';
-    const cards = feed.querySelectorAll('.news-card');
     performance.mark('news-view-start');
-    cards.forEach(card => {
-      card.classList.toggle('is-compact', compact);
-      card.style.width = `${Math.round(feed.clientWidth * (compact ? 0.84 : 1))}px`;
-      const width = card.getBoundingClientRect().width;
-      card.querySelector('.card-title').style.maxWidth = `${Math.max(0, width - 50)}px`;
-    });
     feed.dataset.view = mode;
     document.getElementById('view-detailed').setAttribute('aria-pressed', String(!compact));
     document.getElementById('view-compact').setAttribute('aria-pressed', String(compact));
@@ -21,6 +14,7 @@
 
   function init() {
     const feed = document.getElementById('news-feed');
+    if (feed.dataset.initCount !== '0') return;
     const count = feed.querySelectorAll('.news-card').length;
     document.getElementById('archive-count').textContent = window.NewsTools.formatCount(count);
     feed.dataset.initCount = String(Number(feed.dataset.initCount) + 1);
@@ -28,7 +22,6 @@
     document.getElementById('view-detailed').addEventListener('click', () => changeView('detailed'));
   }
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init, { once: true });
   else init();
-  window.addEventListener('load', init);
 })();
